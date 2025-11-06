@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///Users/faith/Documents/stuck/web/src/app/inventory/page.tsx"],"sourcesContent":["import React from \"react\";\n\nconst Inventory = () => {\n  return <div>Inventory</div>;\n};\n\nexport default Inventory;\n"],"names":[],"mappings":";;;;;;AAEA,MAAM,YAAY;IAChB,qBAAO,qPAAC;kBAAI;;;;;;AACd;uCAEe","debugId":null}}]
+}

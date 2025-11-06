@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///Users/faith/Documents/stuck/web/src/app/page.tsx"],"sourcesContent":["export default function Home() {\n  return <div className=\"bg-white \"></div>;\n}\n"],"names":[],"mappings":";;;;;;AAAe,SAAS;IACtB,qBAAO,qPAAC;QAAI,WAAU;;;;;;AACxB","debugId":null}}]
+}

@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///Users/faith/Documents/stuck/web/src/app/dashboard/page.tsx"],"sourcesContent":["import Sidebar from \"@/layout/dashboardLayout\";\n\nconst Home = () => {\n  return (\n    <div className=\"bg-pink-600 text-white pl-49.5  h-[100000px]\">\n      {\" \"}\n      {/* <Sidebar /> */}\n      Home\n    </div>\n  );\n};\n\nexport default Home;\n"],"names":[],"mappings":";;;;;;AAEA,MAAM,OAAO;IACX,qBACE,qPAAC;QAAI,WAAU;;YACZ;YACkB;;;;;;;AAIzB;uCAEe","debugId":null}}]
+}
