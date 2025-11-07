@@ -8,6 +8,7 @@ import TopBar from "@/layout/navbar";
 import { ArrowLeft } from "lucide-react";
 import { PencilSimpleIcon } from "@phosphor-icons/react";
 import Image from "next/image";
+import { EditProduct } from "@/components/editProduct";
 
 export default function InventoryItemDetails({
   params,
@@ -55,25 +56,6 @@ export default function InventoryItemDetails({
       </div>
       {/*  */}
       <div className=" lg:flex gap-14 pl w-full pl-[232px]">
-        {/* <div className="bg-white rounded-md w-full max-w-[1126px] p-6 ">
-          <section className="w-full flex items-center justify-between mb-10">
-            <div className="flex items-center gap-2 ">
-              <div
-                className="flex items-center gap-2"
-                onClick={() => router.push("/inventory")}
-              >
-                <ArrowLeft className="w-4 h-4" />
-              </div>
-              <h1 className="text-xl font-semibold">Product Details</h1>
-            </div>
-            <TableButton
-              variant="outline"
-              className="border border-gray-300 text-gray-700 w-[90px] rounded-sm hover:bg-gray-100 shadow-none h-9"
-            >
-              <PencilSimpleIcon /> Edit
-            </TableButton>
-          </section>
-        </div> */}
         <div className="bg-white rounded-md w-full max-w-[1126px] p-6">
           {/* Top Bar */}
           <section className="w-full flex items-center justify-between mb-10">
@@ -86,12 +68,7 @@ export default function InventoryItemDetails({
               </div>
               <h1 className="text-xl font-semibold">{product.name}</h1>
             </div>
-            <TableButton
-              variant="outline"
-              className="border border-gray-300 text-gray-700 w-[90px] rounded-sm hover:bg-gray-100 shadow-none h-9"
-            >
-              <PencilSimpleIcon /> Edit
-            </TableButton>
+            <EditProduct />
           </section>
 
           {/* Content */}
@@ -111,14 +88,14 @@ export default function InventoryItemDetails({
 
             {/* Right: Product Details */}
             <div className="col-span-2 flex flex-col gap-4 text-sm text-gray-700">
-              <div>
+              <div className="mb-5">
                 <p className="text-gray-500 text-xs uppercase mb-1">
                   Product Name
                 </p>
                 <p className="font-medium">{product.name}</p>
               </div>
 
-              <div className="grid grid-cols-2 gap-y-3 gap-x-6">
+              <div className="grid grid-cols-2 gap-y-8 gap-x-6 ">
                 <div>
                   <p className="text-gray-500 text-xs uppercase mb-1">SKU</p>
                   <p>{product.sku}</p>
@@ -154,7 +131,7 @@ export default function InventoryItemDetails({
               </div>
 
               <div>
-                <p className="text-gray-500 text-xs uppercase mb-1">
+                <p className="text-gray-500 text-xs uppercase mt-5 mb-1">
                   Description
                 </p>
                 <p className="leading-relaxed">{product.description}</p>

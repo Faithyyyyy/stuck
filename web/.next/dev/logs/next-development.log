@@ -1,255 +1,57 @@
-[00:00:01.010] Server  LOG      ✓ Ready in 754ms
-[00:00:04.939] Server  LOG      ○ Compiling /inventory ...
-[00:00:12.050] Browser WARN    Image with src "http://localhost:3000/_next/static/media/Search.2ff440c6.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:12.050] Browser WARN    Image with src "http://localhost:3000/_next/static/media/bell.cd2a5fc7.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[03:34:44.323] Server  LOG      ✓ Compiled in 123ms
-[03:38:00.472] Server  LOG      ✓ Compiled in 198ms
-[03:47:41.178] Server  LOG      ✓ Compiled in 130ms
-[03:48:28.357] Server  LOG      ✓ Compiled in 120ms
-[03:48:56.218] Server  LOG      ✓ Compiled in 58ms
-[03:51:15.933] Server  LOG      ✓ Compiled in 934ms
-[04:00:26.370] Server  LOG      ✓ Compiled in 375ms
-[04:03:31.930] Server  LOG      ✓ Compiled in 189ms
-[04:03:36.981] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[04:03:36.981] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[04:04:03.250] Server  LOG      ✓ Compiled in 145ms
-[04:04:09.828] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[04:04:09.828] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[04:04:19.908] Server  LOG      ✓ Compiled in 113ms
-[04:04:23.211] Browser WARN    Image with src "http://localhost:3000/_next/static/media/Search.2ff440c6.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[04:04:23.211] Browser WARN    Image with src "http://localhost:3000/_next/static/media/bell.cd2a5fc7.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[04:04:24.599] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[04:04:24.599] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[04:04:36.854] Server  LOG      ✓ Compiled in 67ms
-[04:04:39.572] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[04:04:39.572] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[04:05:38.207] Server  LOG      ✓ Compiled in 90ms
-[04:06:27.227] Server  LOG      ✓ Compiled in 56ms
-[04:06:58.689] Server  LOG      ✓ Compiled in 95ms
-[04:07:17.827] Server  LOG      ✓ Compiled in 90ms
-[04:07:35.459] Server  LOG      ✓ Compiled in 74ms
-[04:08:04.409] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[04:08:04.410] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[04:13:23.813] Server  LOG      ✓ Compiled in 234ms
-[04:13:42.076] Server  LOG      ✓ Compiled in 102ms
-[04:13:49.188] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[04:13:49.189] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[04:13:52.879] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[04:13:52.879] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[04:15:59.333] Server  LOG      ✓ Compiled in 125ms
-[04:23:33.119] Server  LOG      ✓ Compiled in 222ms
-[04:23:33.623] Browser ERROR   uncaughtError: ReferenceError: handleImageUpload is not defined
-[04:25:08.330] Server  LOG      ✓ Compiled in 298ms
-[04:25:08.353] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[04:25:09.619] Browser WARN    Image with src "http://localhost:3000/_next/static/media/Search.2ff440c6.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[04:25:09.619] Browser WARN    Image with src "http://localhost:3000/_next/static/media/bell.cd2a5fc7.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[04:25:29.846] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[04:25:29.846] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[04:25:36.023] Browser WARN    Image with src "blob:http://localhost:3000/fcc90b36-b6b2-4f5d-9416-4c92ec3e1d25" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[04:25:52.661] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[04:25:52.661] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[04:26:02.949] Browser WARN    Image with src "blob:http://localhost:3000/2d6148eb-decd-49dd-afc4-a93de98aa0a0" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[04:26:22.958] Browser WARN    Image with src "blob:http://localhost:3000/7f73fe9e-ea8e-4784-b689-87826320bebf" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[04:29:46.999] Server  LOG      ✓ Compiled in 166ms
-[04:29:47.618] Browser ERROR   ./web/src/components/addProduct.tsx
-Error evaluating Node.js code
-SyntaxError: /Users/faith/Documents/stuck/web/src/components/addProduct.tsx: Identifier 'handleFileChange' has already been declared. (75:8)
+[00:00:02.672] Server  LOG      ✓ Ready in 2.2s
+[00:00:09.201] Server  LOG      ○ Compiling /inventory/[id] ...
+[00:00:12.784] Browser WARN    Image with src "http://localhost:3000/_next/static/media/Search.2ff440c6.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:12.784] Browser WARN    Image with src "http://localhost:3000/_next/static/media/bell.cd2a5fc7.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:01:30.255] Server  LOG      ✓ Compiled in 305ms
+[00:01:35.017] Server  LOG      ✓ Compiled in 111ms
+[00:01:52.541] Server  LOG      ✓ Compiled in 80ms
+[00:03:35.486] Server  LOG      ✓ Compiled in 186ms
+[00:03:49.877] Server  LOG      ✓ Compiled in 156ms
+[00:04:15.510] Server  LOG      ✓ Compiled in 113ms
+[00:04:19.308] Server  LOG      ✓ Compiled in 109ms
+[00:08:10.682] Server  LOG      ✓ Compiled in 253ms
+[00:08:44.921] Server  LOG      ✓ Compiled in 243ms
+[00:08:51.303] Server  LOG      ✓ Compiled in 74ms
+[00:08:54.945] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[00:08:54.945] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[00:13:10.001] Server  LOG      ✓ Compiled in 270ms
+[00:13:16.636] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[00:13:16.636] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[00:14:51.573] Server  LOG      ✓ Compiled in 100ms
+[00:15:56.139] Server  LOG      ✓ Compiled in 123ms
+[00:18:44.532] Server  LOG      ✓ Compiled in 97ms
+[00:18:45.001] Browser ERROR   ./web/src/components/editProduct.tsx:115:6
+Parsing ecmascript source code failed
+  113 |       </>
+  114 |     ) : (
+> 115 |     )}
+      |      ^
+  116 |   </div>
+  117 |
+  118 |   {/* Clickable label — separated */}
 
-  73 |   }, [previewUrl]);
-  74 |
-> 75 |   const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-     |         ^
-  76 |     const f = e.target.files?.[0] ?? null;
-  77 |     if (f) setFile(f);
-  78 |   };
-    [at constructor (/Users/faith/Documents/stuck/node_modules/next/dist/compiled/babel/bundle.js:191:137105)]
-    [at TypeScriptParserMixin.raise (/Users/faith/Documents/stuck/node_modules/next/dist/compiled/babel/bundle.js:191:194164)]
-    [at TypeScriptScopeHandler.checkRedeclarationInScope (/Users/faith/Documents/stuck/node_modules/next/dist/compiled/babel/bundle.js:191:163166)]
-    [at TypeScriptScopeHandler.declareName (/Users/faith/Documents/stuck/node_modules/next/dist/compiled/babel/bundle.js:191:162529)]
-    [at TypeScriptScopeHandler.declareName (/Users/faith/Documents/stuck/node_modules/next/dist/compiled/babel/bundle.js:191:271160)]
-    [at TypeScriptParserMixin.declareNameFromIdentifier (/Users/faith/Documents/stuck/node_modules/next/dist/compiled/babel/bundle.js:191:279226)]
-    [at TypeScriptParserMixin.checkIdentifier (/Users/faith/Documents/stuck/node_modules/next/dist/compiled/babel/bundle.js:191:279152)]
-    [at TypeScriptParserMixin.checkLVal (/Users/faith/Documents/stuck/node_modules/next/dist/compiled/babel/bundle.js:191:278197)]
-    [at TypeScriptParserMixin.parseVarId (/Users/faith/Documents/stuck/node_modules/next/dist/compiled/babel/bundle.js:191:403644)]
-    [at TypeScriptParserMixin.parseVarId (/Users/faith/Documents/stuck/node_modules/next/dist/compiled/babel/bundle.js:191:329902)]
-    [at TypeScriptParserMixin.parseVar (/Users/faith/Documents/stuck/node_modules/next/dist/compiled/babel/bundle.js:191:402884)]
-    [at TypeScriptParserMixin.parseVarStatement (/Users/faith/Documents/stuck/node_modules/next/dist/compiled/babel/bundle.js:191:399366)]
-    [at TypeScriptParserMixin.parseVarStatement (/Users/faith/Documents/stuck/node_modules/next/dist/compiled/babel/bundle.js:191:323322)]
-    [at TypeScriptParserMixin.parseStatementContent (/Users/faith/Documents/stuck/node_modules/next/dist/compiled/babel/bundle.js:191:391398)]
-    [at TypeScriptParserMixin.parseStatementContent (/Users/faith/Documents/stuck/node_modules/next/dist/compiled/babel/bundle.js:191:324042)]
-    [at TypeScriptParserMixin.parseStatementLike (/Users/faith/Documents/stuck/node_modules/next/dist/compiled/babel/bundle.js:191:389494)]
-    [at TypeScriptParserMixin.parseStatementListItem (/Users/faith/Documents/stuck/node_modules/next/dist/compiled/babel/bundle.js:191:389120)]
-    [at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/Users/faith/Documents/stuck/node_modules/next/dist/compiled/babel/bundle.js:191:401423)]
-    [at TypeScriptParserMixin.parseBlockBody (/Users/faith/Documents/stuck/node_modules/next/dist/compiled/babel/bundle.js:191:401223)]
-    [at TypeScriptParserMixin.parseBlock (/Users/faith/Documents/stuck/node_modules/next/dist/compiled/babel/bundle.js:191:400923)]
-    [at TypeScriptParserMixin.parseFunctionBody (/Users/faith/Documents/stuck/node_modules/next/dist/compiled/babel/bundle.js:191:378053)]
-    [at TypeScriptParserMixin.parseFunctionBodyAndFinish (/Users/faith/Documents/stuck/node_modules/next/dist/compiled/babel/bundle.js:191:377675)]
-    [at TypeScriptParserMixin.parseFunctionBodyAndFinish (/Users/faith/Documents/stuck/node_modules/next/dist/compiled/babel/bundle.js:191:318173)]
-    [at /Users/faith/Documents/stuck/node_modules/next/dist/compiled/babel/bundle.js:191:404308]
-    [at TypeScriptParserMixin.withSmartMixTopicForbiddingContext (/Users/faith/Documents/stuck/node_modules/next/dist/compiled/babel/bundle.js:191:383677)]
-    [at TypeScriptParserMixin.parseFunction (/Users/faith/Documents/stuck/node_modules/next/dist/compiled/babel/bundle.js:191:404262)]
-    [at TypeScriptParserMixin.parseFunctionStatement (/Users/faith/Documents/stuck/node_modules/next/dist/compiled/babel/bundle.js:191:397088)]
-    [at TypeScriptParserMixin.parseStatementContent (/Users/faith/Documents/stuck/node_modules/next/dist/compiled/babel/bundle.js:191:390089)]
-    [at TypeScriptParserMixin.parseStatementContent (/Users/faith/Documents/stuck/node_modules/next/dist/compiled/babel/bundle.js:191:324042)]
-    [at TypeScriptParserMixin.parseStatementLike (/Users/faith/Documents/stuck/node_modules/next/dist/compiled/babel/bundle.js:191:389494)]
-    [at TypeScriptParserMixin.parseStatementListItem (/Users/faith/Documents/stuck/node_modules/next/dist/compiled/babel/bundle.js:191:389120)]
-    [at TypeScriptParserMixin.parseExportDeclaration (/Users/faith/Documents/stuck/node_modules/next/dist/compiled/babel/bundle.js:191:415606)]
-    [at TypeScriptParserMixin.parseExportDeclaration (/Users/faith/Documents/stuck/node_modules/next/dist/compiled/babel/bundle.js:191:327104)]
-    [at TypeScriptParserMixin.maybeParseExportDeclaration (/Users/faith/Documents/stuck/node_modules/next/dist/compiled/babel/bundle.js:191:414570)]
-    [at TypeScriptParserMixin.parseExport (/Users/faith/Documents/stuck/node_modules/next/dist/compiled/babel/bundle.js:191:412708)]
-    [at TypeScriptParserMixin.parseExport (/Users/faith/Documents/stuck/node_modules/next/dist/compiled/babel/bundle.js:191:322862)]
-    [at TypeScriptParserMixin.parseStatementContent (/Users/faith/Documents/stuck/node_modules/next/dist/compiled/babel/bundle.js:191:391808)]
-    [at TypeScriptParserMixin.parseStatementContent (/Users/faith/Documents/stuck/node_modules/next/dist/compiled/babel/bundle.js:191:324042)]
-    [at TypeScriptParserMixin.parseStatementLike (/Users/faith/Documents/stuck/node_modules/next/dist/compiled/babel/bundle.js:191:389494)]
-    [at TypeScriptParserMixin.parseModuleItem (/Users/faith/Documents/stuck/node_modules/next/dist/compiled/babel/bundle.js:191:389055)]
-    [at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/Users/faith/Documents/stuck/node_modules/next/dist/compiled/babel/bundle.js:191:401400)]
-    [at TypeScriptParserMixin.parseBlockBody (/Users/faith/Documents/stuck/node_modules/next/dist/compiled/babel/bundle.js:191:401223)]
-    [at TypeScriptParserMixin.parseProgram (/Users/faith/Documents/stuck/node_modules/next/dist/compiled/babel/bundle.js:191:386857)]
-    [at TypeScriptParserMixin.parseTopLevel (/Users/faith/Documents/stuck/node_modules/next/dist/compiled/babel/bundle.js:191:386575)]
-    [at TypeScriptParserMixin.parse (/Users/faith/Documents/stuck/node_modules/next/dist/compiled/babel/bundle.js:191:426834)]
-    [at TypeScriptParserMixin.parse (/Users/faith/Documents/stuck/node_modules/next/dist/compiled/babel/bundle.js:191:337631)]
-    [at parse (/Users/faith/Documents/stuck/node_modules/next/dist/compiled/babel/bundle.js:191:427092)]
-    [at parser (/Users/faith/Documents/stuck/node_modules/next/dist/compiled/babel/bundle.js:1:142018)]
-    [at <anonymous>]
-    [at normalizeFile (/Users/faith/Documents/stuck/node_modules/next/dist/compiled/babel/bundle.js:13:13275)]
+Expected '</', got '}'
 
 Import traces:
   Client Component Browser:
-    ./web/src/components/addProduct.tsx [Client Component Browser]
-    ./web/src/components/tables/inventoryTable.tsx [Client Component Browser]
-    ./web/src/components/tables/inventoryTable.tsx [Server Component]
-    ./web/src/app/inventory/page.tsx [Server Component]
+    ./web/src/components/editProduct.tsx [Client Component Browser]
+    ./web/src/app/inventory/[id]/page.tsx [Client Component Browser]
+    ./web/src/app/inventory/[id]/page.tsx [Server Component]
 
   Client Component SSR:
-    ./web/src/components/addProduct.tsx [Client Component SSR]
-    ./web/src/components/tables/inventoryTable.tsx [Client Component SSR]
-    ./web/src/components/tables/inventoryTable.tsx [Server Component]
-    ./web/src/app/inventory/page.tsx [Server Component]
-[04:29:47.618] Browser ERROR   ./web/src/components/addProduct.tsx:75:9
-Ecmascript file had an error
-  73 |   }, [previewUrl]);
-  74 |
-> 75 |   const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-     |         ^^^^^^^^^^^^^^^^
-  76 |     const f = e.target.files?.[0] ?? null;
-  77 |     if (f) setFile(f);
-  78 |   };
-
-the name `handleFileChange` is defined multiple times
-
-Import traces:
-  Client Component Browser:
-    ./web/src/components/addProduct.tsx [Client Component Browser]
-    ./web/src/components/tables/inventoryTable.tsx [Client Component Browser]
-    ./web/src/components/tables/inventoryTable.tsx [Server Component]
-    ./web/src/app/inventory/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./web/src/components/addProduct.tsx [Client Component SSR]
-    ./web/src/components/tables/inventoryTable.tsx [Client Component SSR]
-    ./web/src/components/tables/inventoryTable.tsx [Server Component]
-    ./web/src/app/inventory/page.tsx [Server Component]
-[04:30:14.021] Server  LOG      ✓ Compiled in 86ms
-[04:30:18.591] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[04:30:18.591] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[04:30:24.774] Browser WARN    Image with src "blob:http://localhost:3000/296b87b9-bcd2-4611-b14c-6cd8757d63b9" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[04:31:11.888] Server  LOG      ✓ Compiled in 106ms
-[04:31:18.365] Server  LOG      ✓ Compiled in 81ms
-[04:31:27.000] Server  LOG      ✓ Compiled in 60ms
-[04:31:42.932] Server  LOG      ✓ Compiled in 99ms
-[04:32:12.668] Server  LOG      ✓ Compiled in 70ms
-[04:32:19.701] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[04:32:19.702] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[04:32:24.221] Server  LOG      ✓ Compiled in 50ms
-[04:32:32.535] Server  LOG      ✓ Compiled in 53ms
-[04:32:50.745] Server  LOG      ✓ Compiled in 49ms
-[04:33:43.314] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[04:33:43.315] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[04:35:13.790] Server  LOG      ✓ Compiled in 163ms
-[04:35:26.454] Server  LOG      ✓ Compiled in 88ms
-[04:35:48.721] Server  LOG      ✓ Compiled in 125ms
-[04:35:54.518] Server  LOG      ✓ Compiled in 116ms
-[04:35:54.823] Browser ERROR   uncaughtError: Error: Image with src "blob:http://localhost:3000/296b87b9-bcd2-4611-b14c-6cd8757d63b9" is missing required "width" property.
-[04:36:05.815] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[04:36:05.839] Server  LOG      ✓ Compiled in 97ms
-[04:36:06.457] Browser WARN    Image with src "http://localhost:3000/_next/static/media/Search.2ff440c6.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[04:36:06.457] Browser WARN    Image with src "http://localhost:3000/_next/static/media/bell.cd2a5fc7.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[04:36:07.862] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[04:36:07.862] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[04:37:04.017] Server  LOG      ✓ Compiled in 157ms
-[04:38:01.668] Server  LOG      ✓ Compiled in 199ms
-[04:38:26.963] Server  LOG      ✓ Compiled in 184ms
-[04:38:37.921] Server  LOG      ✓ Compiled in 153ms
-[04:38:52.835] Server  LOG      ✓ Compiled in 102ms
-[04:39:37.803] Server  LOG      ✓ Compiled in 179ms
-[04:39:53.515] Server  LOG      ✓ Compiled in 80ms
-[04:40:35.129] Server  LOG      ✓ Compiled in 125ms
-[04:40:46.885] Server  LOG      ✓ Compiled in 117ms
-[04:40:50.173] Server  LOG      ✓ Compiled in 165ms
-[04:40:51.353] Server  LOG      ✓ Compiled in 120ms
-[04:41:31.989] Server  LOG      ✓ Compiled in 99ms
-[04:41:50.232] Server  LOG      ✓ Compiled in 99ms
-[05:14:48.120] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[05:14:48.121] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[05:15:05.550] Browser WARN    Image with src "http://localhost:3000/_next/static/media/Search.2ff440c6.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[05:15:05.550] Browser WARN    Image with src "http://localhost:3000/_next/static/media/bell.cd2a5fc7.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[05:15:14.260] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[05:15:14.260] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[05:25:16.974] Server  LOG      ✓ Compiled in 384ms
-[05:31:11.495] Server  LOG      ✓ Compiled in 298ms
-[05:31:19.119] Browser WARN    Image with src "http://localhost:3000/_next/static/media/Search.2ff440c6.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[05:31:19.119] Browser WARN    Image with src "http://localhost:3000/_next/static/media/bell.cd2a5fc7.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[05:42:55.536] Server  LOG      ✓ Compiled in 109ms
-[05:42:58.968] Server  LOG      ✓ Compiled in 248ms
-[05:43:36.619] Browser ERROR   A param property was accessed directly with `params.id`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-[05:43:36.619] Browser ERROR   A param property was accessed directly with `params.id`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-[05:43:40.121] Server  WARN    Error: Route "/inventory/[id]" used `params.id`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-[05:43:40.372] Browser ERROR   A param property was accessed directly with `params.id`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-[05:43:40.372] Browser ERROR   A param property was accessed directly with `params.id`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-[05:43:41.065] Server  WARN    Error: Route "/inventory/[id]" used `params.id`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-[05:43:41.177] Browser ERROR   A param property was accessed directly with `params.id`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-[05:43:41.177] Browser ERROR   A param property was accessed directly with `params.id`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-[05:43:55.086] Server  WARN    Error: Route "/inventory/[id]" used `params.id`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-[05:43:55.181] Browser ERROR   A param property was accessed directly with `params.id`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-[05:43:55.181] Browser ERROR   A param property was accessed directly with `params.id`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-[05:46:08.936] Server  LOG      ✓ Compiled in 132ms
-[05:46:15.964] Browser WARN    Image with src "http://localhost:3000/_next/static/media/Search.2ff440c6.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[05:46:15.964] Browser WARN    Image with src "http://localhost:3000/_next/static/media/bell.cd2a5fc7.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[05:46:20.658] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[05:46:20.658] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[05:48:31.767] Server  LOG      ✓ Compiled in 95ms
-[05:48:32.620] Browser ERROR   uncaughtError: ReferenceError: Sidebar is not defined
-[05:48:54.372] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[05:48:55.621] Browser WARN    Image with src "http://localhost:3000/_next/static/media/Search.2ff440c6.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[05:48:55.621] Browser WARN    Image with src "http://localhost:3000/_next/static/media/bell.cd2a5fc7.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[05:50:36.095] Server  LOG      ✓ Compiled in 55ms
-[05:50:50.179] Server  LOG      ✓ Compiled in 119ms
-[05:51:00.533] Server  LOG      ✓ Compiled in 109ms
-[05:51:06.314] Server  LOG      ✓ Compiled in 77ms
-[05:51:21.295] Server  LOG      ✓ Compiled in 130ms
-[05:51:40.505] Server  LOG      ✓ Compiled in 95ms
-[05:52:14.069] Server  LOG      ✓ Compiled in 72ms
-[05:52:42.011] Server  LOG      ✓ Compiled in 59ms
-[05:52:53.477] Server  LOG      ✓ Compiled in 90ms
-[05:52:59.077] Server  LOG      ✓ Compiled in 96ms
-[05:53:14.294] Server  LOG      ✓ Compiled in 84ms
-[05:54:24.018] Server  LOG      ✓ Compiled in 86ms
-[05:56:50.737] Server  LOG      ✓ Compiled in 220ms
-[05:58:25.511] Server  LOG      ✓ Compiled in 137ms
-[05:58:37.684] Server  LOG      ✓ Compiled in 62ms
-[06:00:08.495] Server  LOG      ✓ Compiled in 127ms
-[06:01:26.535] Server  LOG      ✓ Compiled in 101ms
-[06:01:50.883] Server  LOG      ✓ Compiled in 72ms
-[06:02:08.873] Server  LOG      ✓ Compiled in 78ms
-[06:02:15.147] Server  LOG      ✓ Compiled in 135ms
-[06:02:24.080] Server  LOG      ✓ Compiled in 61ms
-[06:02:58.935] Server  LOG      ✓ Compiled in 364ms
-[06:03:13.396] Server  LOG      ✓ Compiled in 136ms
-[06:03:24.988] Server  LOG      ✓ Compiled in 78ms
-[06:04:01.863] Server  LOG      ✓ Compiled in 89ms
-[06:04:14.068] Server  LOG      ✓ Compiled in 73ms
-[06:04:21.191] Server  LOG      ✓ Compiled in 35ms
-[06:04:29.089] Server  LOG      ✓ Compiled in 32ms
-[06:17:36.232] Server  LOG      ✓ Compiled in 363ms
-[06:19:01.084] Server  LOG      ✓ Compiled in 141ms
-[06:19:41.193] Server  LOG      ✓ Compiled in 270ms
+    ./web/src/components/editProduct.tsx [Client Component SSR]
+    ./web/src/app/inventory/[id]/page.tsx [Client Component SSR]
+    ./web/src/app/inventory/[id]/page.tsx [Server Component]
+[00:18:55.000] Browser ERROR   uncaughtError: ReferenceError: div is not defined
+[00:18:58.871] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:18:58.902] Server  LOG      ✓ Compiled in 108ms
+[00:19:00.003] Browser WARN    Image with src "http://localhost:3000/_next/static/media/Search.2ff440c6.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:19:00.003] Browser WARN    Image with src "http://localhost:3000/_next/static/media/bell.cd2a5fc7.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:19:01.546] Browser WARN    Image with src "https://images.unsplash.com/photo-1523381210434-271e8be1f52b?w=400&q=80" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:19:03.540] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[00:19:03.540] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[00:20:52.642] Server  LOG      ✓ Compiled in 79ms
+[00:21:10.357] Server  LOG      ✓ Compiled in 255ms
+[00:22:07.726] Server  LOG      ✓ Compiled in 127ms
+[00:22:26.022] Server  LOG      ✓ Compiled in 69ms

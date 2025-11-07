@@ -853,6 +853,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$web$2f$src$2f$components$2f$
 var __TURBOPACK__imported__module__$5b$project$5d2f$web$2f$src$2f$layout$2f$dashboardLayout$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/web/src/layout/dashboardLayout.tsx [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$web$2f$src$2f$layout$2f$navbar$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/web/src/layout/navbar.tsx [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$arrow$2d$left$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ArrowLeft$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/arrow-left.js [app-client] (ecmascript) <export default as ArrowLeft>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/image.js [app-client] (ecmascript)");
 ;
 var _s = __turbopack_context__.k.signature();
 "use client";
@@ -863,177 +864,676 @@ var _s = __turbopack_context__.k.signature();
 ;
 ;
 ;
+;
 function InventoryItemDetails(t0) {
     _s();
-    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(14);
-    if ($[0] !== "9de69690681b2814fe296ea010648706f2a2f57cdcbe93e4e9af80be3a8addc9") {
-        for(let $i = 0; $i < 14; $i += 1){
+    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(68);
+    if ($[0] !== "465d495a105941aa2ccdfedaa8677d453554b8da00ef3fe9a0d29022a956655b") {
+        for(let $i = 0; $i < 68; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "9de69690681b2814fe296ea010648706f2a2f57cdcbe93e4e9af80be3a8addc9";
+        $[0] = "465d495a105941aa2ccdfedaa8677d453554b8da00ef3fe9a0d29022a956655b";
     }
     const { params } = t0;
     const router = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRouter"])();
-    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["use"])(params);
+    const { id } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["use"])(params);
     let t1;
-    if ($[1] === Symbol.for("react.memo_cache_sentinel")) {
-        t1 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$web$2f$src$2f$layout$2f$dashboardLayout$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
+    if ($[1] !== id) {
+        t1 = {
+            id,
+            name: "Blue Cotton T-Shirt",
+            sku: "TSHIRT-001",
+            category: "Apparel",
+            brand: "Urban Threads",
+            price: "\u20A67,500",
+            quantity: 42,
+            status: "In Stock",
+            description: "Soft cotton t-shirt in blue with a relaxed fit. Suitable for casual wear.",
+            image: "https://images.unsplash.com/photo-1523381210434-271e8be1f52b?w=400&q=80",
+            dateAdded: "2025-11-01",
+            lastUpdated: "2025-11-05"
+        };
+        $[1] = id;
+        $[2] = t1;
+    } else {
+        t1 = $[2];
+    }
+    const product = t1;
+    const statusColor = product.status === "In Stock" ? "text-[#16A34A] bg-[#F0FDF5]" : product.status === "Out of Stock" ? "text-[#DC2626] bg-[#FEF2F2]" : "text-[#E19133] bg-[#FFF8E1]";
+    let t2;
+    if ($[3] === Symbol.for("react.memo_cache_sentinel")) {
+        t2 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$web$2f$src$2f$layout$2f$dashboardLayout$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
             fileName: "[project]/web/src/app/inventory/[id]/page.tsx",
-            lineNumber: 26,
+            lineNumber: 52,
             columnNumber: 10
         }, this);
-        $[1] = t1;
+        $[3] = t2;
     } else {
-        t1 = $[1];
+        t2 = $[3];
     }
-    let t2;
-    if ($[2] === Symbol.for("react.memo_cache_sentinel")) {
-        t2 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+    let t3;
+    if ($[4] === Symbol.for("react.memo_cache_sentinel")) {
+        t3 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "pl-49.5",
             children: [
-                t1,
+                t2,
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$web$2f$src$2f$layout$2f$navbar$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                     rightSide: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$web$2f$src$2f$components$2f$notificationBell$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                             fileName: "[project]/web/src/app/inventory/[id]/page.tsx",
-                            lineNumber: 33,
+                            lineNumber: 59,
                             columnNumber: 60
                         }, void 0)
                     }, void 0, false)
                 }, void 0, false, {
                     fileName: "[project]/web/src/app/inventory/[id]/page.tsx",
-                    lineNumber: 33,
+                    lineNumber: 59,
                     columnNumber: 39
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/web/src/app/inventory/[id]/page.tsx",
-            lineNumber: 33,
+            lineNumber: 59,
             columnNumber: 10
         }, this);
-        $[2] = t2;
-    } else {
-        t2 = $[2];
-    }
-    let t3;
-    if ($[3] !== router) {
-        t3 = ({
-            "InventoryItemDetails[<div>.onClick]": ()=>router.push("/inventory")
-        })["InventoryItemDetails[<div>.onClick]"];
-        $[3] = router;
         $[4] = t3;
     } else {
         t3 = $[4];
     }
     let t4;
-    if ($[5] === Symbol.for("react.memo_cache_sentinel")) {
-        t4 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$arrow$2d$left$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ArrowLeft$3e$__["ArrowLeft"], {
+    if ($[5] !== router) {
+        t4 = ({
+            "InventoryItemDetails[<div>.onClick]": ()=>router.push("/inventory")
+        })["InventoryItemDetails[<div>.onClick]"];
+        $[5] = router;
+        $[6] = t4;
+    } else {
+        t4 = $[6];
+    }
+    let t5;
+    if ($[7] === Symbol.for("react.memo_cache_sentinel")) {
+        t5 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$arrow$2d$left$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ArrowLeft$3e$__["ArrowLeft"], {
             className: "w-4 h-4"
         }, void 0, false, {
             fileName: "[project]/web/src/app/inventory/[id]/page.tsx",
-            lineNumber: 50,
+            lineNumber: 76,
             columnNumber: 10
         }, this);
-        $[5] = t4;
-    } else {
-        t4 = $[5];
-    }
-    let t5;
-    if ($[6] !== t3) {
-        t5 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "flex items-center gap-2",
-            onClick: t3,
-            children: t4
-        }, void 0, false, {
-            fileName: "[project]/web/src/app/inventory/[id]/page.tsx",
-            lineNumber: 57,
-            columnNumber: 10
-        }, this);
-        $[6] = t3;
         $[7] = t5;
     } else {
         t5 = $[7];
     }
     let t6;
-    if ($[8] === Symbol.for("react.memo_cache_sentinel")) {
-        t6 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-            className: "text-xl font-semibold",
-            children: "Product Details"
+    if ($[8] !== t4) {
+        t6 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "flex items-center gap-2",
+            onClick: t4,
+            children: t5
         }, void 0, false, {
             fileName: "[project]/web/src/app/inventory/[id]/page.tsx",
-            lineNumber: 65,
+            lineNumber: 83,
             columnNumber: 10
         }, this);
-        $[8] = t6;
+        $[8] = t4;
+        $[9] = t6;
     } else {
-        t6 = $[8];
+        t6 = $[9];
     }
     let t7;
-    if ($[9] !== t5) {
-        t7 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "flex items-center gap-2 mb-6",
-            children: [
-                t5,
-                t6
-            ]
-        }, void 0, true, {
+    if ($[10] !== product.name) {
+        t7 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
+            className: "text-xl font-semibold",
+            children: product.name
+        }, void 0, false, {
             fileName: "[project]/web/src/app/inventory/[id]/page.tsx",
-            lineNumber: 72,
+            lineNumber: 91,
             columnNumber: 10
         }, this);
-        $[9] = t5;
-        $[10] = t7;
+        $[10] = product.name;
+        $[11] = t7;
     } else {
-        t7 = $[10];
+        t7 = $[11];
     }
     let t8;
-    if ($[11] === Symbol.for("react.memo_cache_sentinel")) {
-        t8 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {}, void 0, false, {
+    if ($[12] !== t6 || $[13] !== t7) {
+        t8 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+            className: "w-full flex items-center justify-between mb-10",
+            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "flex items-center gap-2 ",
+                children: [
+                    t6,
+                    t7
+                ]
+            }, void 0, true, {
+                fileName: "[project]/web/src/app/inventory/[id]/page.tsx",
+                lineNumber: 99,
+                columnNumber: 78
+            }, this)
+        }, void 0, false, {
             fileName: "[project]/web/src/app/inventory/[id]/page.tsx",
-            lineNumber: 80,
+            lineNumber: 99,
             columnNumber: 10
         }, this);
-        $[11] = t8;
+        $[12] = t6;
+        $[13] = t7;
+        $[14] = t8;
     } else {
-        t8 = $[11];
+        t8 = $[14];
     }
     let t9;
-    if ($[12] !== t7) {
+    if ($[15] !== product.image || $[16] !== product.name) {
         t9 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "relative bg-[#F0F1F3] h-screen pt-28  pb-14",
-            children: [
-                " ",
-                t2,
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: " lg:flex gap-14 pl w-full pl-[232px]",
-                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "bg-white rounded-md w-full max-w-[1126px] p-6 ",
-                        children: [
-                            t7,
-                            t8
-                        ]
-                    }, void 0, true, {
-                        fileName: "[project]/web/src/app/inventory/[id]/page.tsx",
-                        lineNumber: 87,
-                        columnNumber: 134
-                    }, this)
+            className: "w-full flex justify-center",
+            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "relative w-48 h-48 rounded-md overflow-hidden border",
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                    src: product.image,
+                    alt: product.name,
+                    fill: true,
+                    className: "object-cover",
+                    unoptimized: true
                 }, void 0, false, {
                     fileName: "[project]/web/src/app/inventory/[id]/page.tsx",
-                    lineNumber: 87,
-                    columnNumber: 80
+                    lineNumber: 108,
+                    columnNumber: 124
+                }, this)
+            }, void 0, false, {
+                fileName: "[project]/web/src/app/inventory/[id]/page.tsx",
+                lineNumber: 108,
+                columnNumber: 54
+            }, this)
+        }, void 0, false, {
+            fileName: "[project]/web/src/app/inventory/[id]/page.tsx",
+            lineNumber: 108,
+            columnNumber: 10
+        }, this);
+        $[15] = product.image;
+        $[16] = product.name;
+        $[17] = t9;
+    } else {
+        t9 = $[17];
+    }
+    let t10;
+    if ($[18] === Symbol.for("react.memo_cache_sentinel")) {
+        t10 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+            className: "text-gray-500 text-xs uppercase mb-1",
+            children: "Product Name"
+        }, void 0, false, {
+            fileName: "[project]/web/src/app/inventory/[id]/page.tsx",
+            lineNumber: 117,
+            columnNumber: 11
+        }, this);
+        $[18] = t10;
+    } else {
+        t10 = $[18];
+    }
+    let t11;
+    if ($[19] !== product.name) {
+        t11 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "mb-5",
+            children: [
+                t10,
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                    className: "font-medium",
+                    children: product.name
+                }, void 0, false, {
+                    fileName: "[project]/web/src/app/inventory/[id]/page.tsx",
+                    lineNumber: 124,
+                    columnNumber: 38
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/web/src/app/inventory/[id]/page.tsx",
-            lineNumber: 87,
-            columnNumber: 10
+            lineNumber: 124,
+            columnNumber: 11
         }, this);
-        $[12] = t7;
-        $[13] = t9;
+        $[19] = product.name;
+        $[20] = t11;
     } else {
-        t9 = $[13];
+        t11 = $[20];
     }
-    return t9;
+    let t12;
+    if ($[21] === Symbol.for("react.memo_cache_sentinel")) {
+        t12 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+            className: "text-gray-500 text-xs uppercase mb-1",
+            children: "SKU"
+        }, void 0, false, {
+            fileName: "[project]/web/src/app/inventory/[id]/page.tsx",
+            lineNumber: 132,
+            columnNumber: 11
+        }, this);
+        $[21] = t12;
+    } else {
+        t12 = $[21];
+    }
+    let t13;
+    if ($[22] !== product.sku) {
+        t13 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            children: [
+                t12,
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                    children: product.sku
+                }, void 0, false, {
+                    fileName: "[project]/web/src/app/inventory/[id]/page.tsx",
+                    lineNumber: 139,
+                    columnNumber: 21
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "[project]/web/src/app/inventory/[id]/page.tsx",
+            lineNumber: 139,
+            columnNumber: 11
+        }, this);
+        $[22] = product.sku;
+        $[23] = t13;
+    } else {
+        t13 = $[23];
+    }
+    let t14;
+    if ($[24] === Symbol.for("react.memo_cache_sentinel")) {
+        t14 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+            className: "text-gray-500 text-xs uppercase mb-1",
+            children: "Category"
+        }, void 0, false, {
+            fileName: "[project]/web/src/app/inventory/[id]/page.tsx",
+            lineNumber: 147,
+            columnNumber: 11
+        }, this);
+        $[24] = t14;
+    } else {
+        t14 = $[24];
+    }
+    let t15;
+    if ($[25] !== product.category) {
+        t15 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            children: [
+                t14,
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                    children: product.category
+                }, void 0, false, {
+                    fileName: "[project]/web/src/app/inventory/[id]/page.tsx",
+                    lineNumber: 154,
+                    columnNumber: 21
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "[project]/web/src/app/inventory/[id]/page.tsx",
+            lineNumber: 154,
+            columnNumber: 11
+        }, this);
+        $[25] = product.category;
+        $[26] = t15;
+    } else {
+        t15 = $[26];
+    }
+    let t16;
+    if ($[27] === Symbol.for("react.memo_cache_sentinel")) {
+        t16 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+            className: "text-gray-500 text-xs uppercase mb-1",
+            children: "Brand"
+        }, void 0, false, {
+            fileName: "[project]/web/src/app/inventory/[id]/page.tsx",
+            lineNumber: 162,
+            columnNumber: 11
+        }, this);
+        $[27] = t16;
+    } else {
+        t16 = $[27];
+    }
+    let t17;
+    if ($[28] !== product.brand) {
+        t17 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            children: [
+                t16,
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                    children: product.brand
+                }, void 0, false, {
+                    fileName: "[project]/web/src/app/inventory/[id]/page.tsx",
+                    lineNumber: 169,
+                    columnNumber: 21
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "[project]/web/src/app/inventory/[id]/page.tsx",
+            lineNumber: 169,
+            columnNumber: 11
+        }, this);
+        $[28] = product.brand;
+        $[29] = t17;
+    } else {
+        t17 = $[29];
+    }
+    let t18;
+    if ($[30] === Symbol.for("react.memo_cache_sentinel")) {
+        t18 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+            className: "text-gray-500 text-xs uppercase mb-1",
+            children: "Price"
+        }, void 0, false, {
+            fileName: "[project]/web/src/app/inventory/[id]/page.tsx",
+            lineNumber: 177,
+            columnNumber: 11
+        }, this);
+        $[30] = t18;
+    } else {
+        t18 = $[30];
+    }
+    let t19;
+    if ($[31] !== product.price) {
+        t19 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            children: [
+                t18,
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                    className: "font-medium",
+                    children: product.price
+                }, void 0, false, {
+                    fileName: "[project]/web/src/app/inventory/[id]/page.tsx",
+                    lineNumber: 184,
+                    columnNumber: 21
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "[project]/web/src/app/inventory/[id]/page.tsx",
+            lineNumber: 184,
+            columnNumber: 11
+        }, this);
+        $[31] = product.price;
+        $[32] = t19;
+    } else {
+        t19 = $[32];
+    }
+    let t20;
+    if ($[33] === Symbol.for("react.memo_cache_sentinel")) {
+        t20 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+            className: "text-gray-500 text-xs uppercase mb-1",
+            children: "Stock Qty"
+        }, void 0, false, {
+            fileName: "[project]/web/src/app/inventory/[id]/page.tsx",
+            lineNumber: 192,
+            columnNumber: 11
+        }, this);
+        $[33] = t20;
+    } else {
+        t20 = $[33];
+    }
+    let t21;
+    if ($[34] !== product.quantity) {
+        t21 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            children: [
+                t20,
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                    children: product.quantity
+                }, void 0, false, {
+                    fileName: "[project]/web/src/app/inventory/[id]/page.tsx",
+                    lineNumber: 199,
+                    columnNumber: 21
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "[project]/web/src/app/inventory/[id]/page.tsx",
+            lineNumber: 199,
+            columnNumber: 11
+        }, this);
+        $[34] = product.quantity;
+        $[35] = t21;
+    } else {
+        t21 = $[35];
+    }
+    let t22;
+    if ($[36] === Symbol.for("react.memo_cache_sentinel")) {
+        t22 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+            className: "text-gray-500 text-xs uppercase mb-1",
+            children: "Status"
+        }, void 0, false, {
+            fileName: "[project]/web/src/app/inventory/[id]/page.tsx",
+            lineNumber: 207,
+            columnNumber: 11
+        }, this);
+        $[36] = t22;
+    } else {
+        t22 = $[36];
+    }
+    const t23 = `px-2 py-1 rounded-full text-xs font-medium ${statusColor}`;
+    let t24;
+    if ($[37] !== product.status || $[38] !== t23) {
+        t24 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            children: [
+                t22,
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                    className: t23,
+                    children: product.status
+                }, void 0, false, {
+                    fileName: "[project]/web/src/app/inventory/[id]/page.tsx",
+                    lineNumber: 215,
+                    columnNumber: 21
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "[project]/web/src/app/inventory/[id]/page.tsx",
+            lineNumber: 215,
+            columnNumber: 11
+        }, this);
+        $[37] = product.status;
+        $[38] = t23;
+        $[39] = t24;
+    } else {
+        t24 = $[39];
+    }
+    let t25;
+    if ($[40] !== t13 || $[41] !== t15 || $[42] !== t17 || $[43] !== t19 || $[44] !== t21 || $[45] !== t24) {
+        t25 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "grid grid-cols-2 gap-y-8 gap-x-6 ",
+            children: [
+                t13,
+                t15,
+                t17,
+                t19,
+                t21,
+                t24
+            ]
+        }, void 0, true, {
+            fileName: "[project]/web/src/app/inventory/[id]/page.tsx",
+            lineNumber: 224,
+            columnNumber: 11
+        }, this);
+        $[40] = t13;
+        $[41] = t15;
+        $[42] = t17;
+        $[43] = t19;
+        $[44] = t21;
+        $[45] = t24;
+        $[46] = t25;
+    } else {
+        t25 = $[46];
+    }
+    let t26;
+    if ($[47] === Symbol.for("react.memo_cache_sentinel")) {
+        t26 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+            className: "text-gray-500 text-xs uppercase mt-5 mb-1",
+            children: "Description"
+        }, void 0, false, {
+            fileName: "[project]/web/src/app/inventory/[id]/page.tsx",
+            lineNumber: 237,
+            columnNumber: 11
+        }, this);
+        $[47] = t26;
+    } else {
+        t26 = $[47];
+    }
+    let t27;
+    if ($[48] !== product.description) {
+        t27 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            children: [
+                t26,
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                    className: "leading-relaxed",
+                    children: product.description
+                }, void 0, false, {
+                    fileName: "[project]/web/src/app/inventory/[id]/page.tsx",
+                    lineNumber: 244,
+                    columnNumber: 21
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "[project]/web/src/app/inventory/[id]/page.tsx",
+            lineNumber: 244,
+            columnNumber: 11
+        }, this);
+        $[48] = product.description;
+        $[49] = t27;
+    } else {
+        t27 = $[49];
+    }
+    let t28;
+    if ($[50] !== product.dateAdded) {
+        t28 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+            className: "text-xs text-gray-500",
+            children: [
+                "Added:",
+                " ",
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                    className: "text-gray-700",
+                    children: product.dateAdded
+                }, void 0, false, {
+                    fileName: "[project]/web/src/app/inventory/[id]/page.tsx",
+                    lineNumber: 252,
+                    columnNumber: 59
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "[project]/web/src/app/inventory/[id]/page.tsx",
+            lineNumber: 252,
+            columnNumber: 11
+        }, this);
+        $[50] = product.dateAdded;
+        $[51] = t28;
+    } else {
+        t28 = $[51];
+    }
+    let t29;
+    if ($[52] !== product.lastUpdated) {
+        t29 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+            className: "text-xs text-gray-500",
+            children: [
+                "Last Updated:",
+                " ",
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                    className: "text-gray-700",
+                    children: product.lastUpdated
+                }, void 0, false, {
+                    fileName: "[project]/web/src/app/inventory/[id]/page.tsx",
+                    lineNumber: 260,
+                    columnNumber: 66
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "[project]/web/src/app/inventory/[id]/page.tsx",
+            lineNumber: 260,
+            columnNumber: 11
+        }, this);
+        $[52] = product.lastUpdated;
+        $[53] = t29;
+    } else {
+        t29 = $[53];
+    }
+    let t30;
+    if ($[54] !== t28 || $[55] !== t29) {
+        t30 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "flex items-center justify-between pt-4 border-t",
+            children: [
+                t28,
+                t29
+            ]
+        }, void 0, true, {
+            fileName: "[project]/web/src/app/inventory/[id]/page.tsx",
+            lineNumber: 268,
+            columnNumber: 11
+        }, this);
+        $[54] = t28;
+        $[55] = t29;
+        $[56] = t30;
+    } else {
+        t30 = $[56];
+    }
+    let t31;
+    if ($[57] !== t11 || $[58] !== t25 || $[59] !== t27 || $[60] !== t30) {
+        t31 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "col-span-2 flex flex-col gap-4 text-sm text-gray-700",
+            children: [
+                t11,
+                t25,
+                t27,
+                t30
+            ]
+        }, void 0, true, {
+            fileName: "[project]/web/src/app/inventory/[id]/page.tsx",
+            lineNumber: 277,
+            columnNumber: 11
+        }, this);
+        $[57] = t11;
+        $[58] = t25;
+        $[59] = t27;
+        $[60] = t30;
+        $[61] = t31;
+    } else {
+        t31 = $[61];
+    }
+    let t32;
+    if ($[62] !== t31 || $[63] !== t9) {
+        t32 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "grid grid-cols-1 md:grid-cols-3 gap-8",
+            children: [
+                t9,
+                t31
+            ]
+        }, void 0, true, {
+            fileName: "[project]/web/src/app/inventory/[id]/page.tsx",
+            lineNumber: 288,
+            columnNumber: 11
+        }, this);
+        $[62] = t31;
+        $[63] = t9;
+        $[64] = t32;
+    } else {
+        t32 = $[64];
+    }
+    let t33;
+    if ($[65] !== t32 || $[66] !== t8) {
+        t33 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "relative bg-[#F0F1F3] h-screen pt-28  pb-14",
+            children: [
+                " ",
+                t3,
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: " lg:flex gap-14 pl w-full pl-[232px]",
+                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "bg-white rounded-md w-full max-w-[1126px] p-6",
+                        children: [
+                            t8,
+                            t32
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/web/src/app/inventory/[id]/page.tsx",
+                        lineNumber: 297,
+                        columnNumber: 135
+                    }, this)
+                }, void 0, false, {
+                    fileName: "[project]/web/src/app/inventory/[id]/page.tsx",
+                    lineNumber: 297,
+                    columnNumber: 81
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "[project]/web/src/app/inventory/[id]/page.tsx",
+            lineNumber: 297,
+            columnNumber: 11
+        }, this);
+        $[65] = t32;
+        $[66] = t8;
+        $[67] = t33;
+    } else {
+        t33 = $[67];
+    }
+    return t33;
 }
 _s(InventoryItemDetails, "fN7XvhJ+p5oE6+Xlo0NJmXpxjC8=", false, function() {
     return [
