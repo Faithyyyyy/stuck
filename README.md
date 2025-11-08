@@ -30,27 +30,28 @@ The app is built with a **serverless architecture** on AWS, ensuring scalability
 
 ```mermaid
 flowchart LR
-  subgraph Web[Frontend - Vercel]
+  subgraph Web
     A[Next.js App]
   end
 
-  subgraph AWS[Backend - AWS Cloud]
+  subgraph AWS
     B[API Gateway]
-    C[AWS Lambda (SST)]
-    D[(DynamoDB)]
+    C[AWS Lambda SST]
+    D[DynamoDB]
     E[S3 Bucket]
     F[Amazon Cognito]
     G[Amazon SES]
     H[EventBridge]
   end
 
-  A -- REST API Calls --> B
+  A --> B
   B --> C
   C --> D
   C --> E
   C --> G
   F --> A
   H --> C
+
 
   classDef aws fill:#F4F8FB,stroke:#232F3E,stroke-width:1px,color:#000;
   classDef web fill:#E6F0FF,stroke:#1570EF,stroke-width:1px,color:#000;
@@ -108,3 +109,7 @@ Integrate Stripe for supplier payments
 
 Offline-first support (IndexedDB caching)
 ```
+
+License
+
+This project is licensed under the MIT License — feel free to fork and build upon it.
