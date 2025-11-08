@@ -453,9 +453,9 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navi
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$phosphor$2d$icons$2f$react$2f$dist$2f$csr$2f$Trolley$2e$es$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/@phosphor-icons/react/dist/csr/Trolley.es.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$phosphor$2d$icons$2f$react$2f$dist$2f$csr$2f$House$2e$es$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/@phosphor-icons/react/dist/csr/House.es.js [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$phosphor$2d$icons$2f$react$2f$dist$2f$csr$2f$ChartBar$2e$es$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/@phosphor-icons/react/dist/csr/ChartBar.es.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$phosphor$2d$icons$2f$react$2f$dist$2f$csr$2f$Gear$2e$es$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/@phosphor-icons/react/dist/csr/Gear.es.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$phosphor$2d$icons$2f$react$2f$dist$2f$csr$2f$SignOut$2e$es$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/@phosphor-icons/react/dist/csr/SignOut.es.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$phosphor$2d$icons$2f$react$2f$dist$2f$csr$2f$UserCircle$2e$es$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/@phosphor-icons/react/dist/csr/UserCircle.es.js [app-client] (ecmascript)");
 ;
 var _s = __turbopack_context__.k.signature();
 "use client";
@@ -469,28 +469,28 @@ var _s = __turbopack_context__.k.signature();
 const navMenu = [
     {
         name: "Dashboard",
-        link: "dashboard",
+        link: "/dashboard",
         icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$phosphor$2d$icons$2f$react$2f$dist$2f$csr$2f$House$2e$es$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["HouseIcon"]
     },
     {
         name: "Inventory",
-        link: "inventory",
+        link: "/inventory",
         icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$phosphor$2d$icons$2f$react$2f$dist$2f$csr$2f$Trolley$2e$es$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["TrolleyIcon"]
     },
     {
-        name: "Reports",
-        link: "/admin-dashboard/order-management",
-        icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$phosphor$2d$icons$2f$react$2f$dist$2f$csr$2f$ChartBar$2e$es$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ChartBarIcon"]
+        name: "suppliers",
+        link: "/suppliers",
+        icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$phosphor$2d$icons$2f$react$2f$dist$2f$csr$2f$UserCircle$2e$es$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["UserCircleIcon"]
     }
 ];
 function Sidebar() {
     _s();
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(10);
-    if ($[0] !== "599d5194f72a807644393ab48660cf7c7adb697a5866e59b3173eaa57c1aff89") {
+    if ($[0] !== "55b95b3fe70043c60dcd524e3ce89b92964506897e60bdff498700669b799ab7") {
         for(let $i = 0; $i < 10; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "599d5194f72a807644393ab48660cf7c7adb697a5866e59b3173eaa57c1aff89";
+        $[0] = "55b95b3fe70043c60dcd524e3ce89b92964506897e60bdff498700669b799ab7";
     }
     const pathname = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["usePathname"])();
     let t0;
@@ -533,7 +533,7 @@ function Sidebar() {
     if ($[2] !== pathname) {
         t1 = navMenu.map({
             "Sidebar[navMenu.map()]": (item, idx)=>{
-                const isActive = pathname === item.link;
+                const isActive = pathname === item.link || pathname.startsWith(item.link + "/");
                 return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                     href: item.link,
                     className: `px py-3 transition
@@ -4022,9 +4022,6 @@ function DataTable({ data: initialData }) {
                                             const bgClass = row_0.getIsSelected() ? "bg-muted/50" : idx % 2 === 0 ? "bg-[#F9FAFB]" : "bg-white";
                                             return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$web$2f$src$2f$components$2f$ui$2f$table$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["TableRow"], {
                                                 className: `border-0 border-b text-sm font-medium text-[#48505E] transition-colors cursor-pointer `,
-                                                // onClick={() =>
-                                                //   row.toggleSelected(!row.getIsSelected())
-                                                // }
                                                 onClick: ()=>{
                                                     const productId = row_0.original.orderId;
                                                     router.push(`/inventory/${productId}`);
@@ -4034,7 +4031,7 @@ function DataTable({ data: initialData }) {
                                                         children: (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$tanstack$2f$react$2d$table$2f$build$2f$lib$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__["flexRender"])(cell.column.columnDef.cell, cell.getContext())
                                                     }, cell.id, false, {
                                                         fileName: "[project]/web/src/components/tables/inventoryTable.tsx",
-                                                        lineNumber: 246,
+                                                        lineNumber: 242,
                                                         columnNumber: 64
                                                     }, this))
                                             }, row_0.id, false, {
@@ -4052,17 +4049,17 @@ function DataTable({ data: initialData }) {
                                                     message: "Your inventory is currently empty. Get started by adding your first item — it’s quick and easy!"
                                                 }, void 0, false, {
                                                     fileName: "[project]/web/src/components/tables/inventoryTable.tsx",
-                                                    lineNumber: 252,
+                                                    lineNumber: 248,
                                                     columnNumber: 25
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/web/src/components/tables/inventoryTable.tsx",
-                                                lineNumber: 251,
+                                                lineNumber: 247,
                                                 columnNumber: 23
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/web/src/components/tables/inventoryTable.tsx",
-                                            lineNumber: 250,
+                                            lineNumber: 246,
                                             columnNumber: 22
                                         }, this)
                                     }, void 0, false, {

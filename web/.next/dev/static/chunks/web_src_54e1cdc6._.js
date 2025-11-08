@@ -453,9 +453,9 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navi
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$phosphor$2d$icons$2f$react$2f$dist$2f$csr$2f$Trolley$2e$es$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/@phosphor-icons/react/dist/csr/Trolley.es.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$phosphor$2d$icons$2f$react$2f$dist$2f$csr$2f$House$2e$es$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/@phosphor-icons/react/dist/csr/House.es.js [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$phosphor$2d$icons$2f$react$2f$dist$2f$csr$2f$ChartBar$2e$es$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/@phosphor-icons/react/dist/csr/ChartBar.es.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$phosphor$2d$icons$2f$react$2f$dist$2f$csr$2f$Gear$2e$es$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/@phosphor-icons/react/dist/csr/Gear.es.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$phosphor$2d$icons$2f$react$2f$dist$2f$csr$2f$SignOut$2e$es$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/@phosphor-icons/react/dist/csr/SignOut.es.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$phosphor$2d$icons$2f$react$2f$dist$2f$csr$2f$UserCircle$2e$es$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/@phosphor-icons/react/dist/csr/UserCircle.es.js [app-client] (ecmascript)");
 ;
 var _s = __turbopack_context__.k.signature();
 "use client";
@@ -469,30 +469,31 @@ var _s = __turbopack_context__.k.signature();
 const navMenu = [
     {
         name: "Dashboard",
-        link: "dashboard",
+        link: "/dashboard",
         icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$phosphor$2d$icons$2f$react$2f$dist$2f$csr$2f$House$2e$es$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["HouseIcon"]
     },
     {
         name: "Inventory",
-        link: "inventory",
+        link: "/inventory",
         icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$phosphor$2d$icons$2f$react$2f$dist$2f$csr$2f$Trolley$2e$es$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["TrolleyIcon"]
     },
     {
-        name: "Reports",
-        link: "/admin-dashboard/order-management",
-        icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$phosphor$2d$icons$2f$react$2f$dist$2f$csr$2f$ChartBar$2e$es$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ChartBarIcon"]
+        name: "suppliers",
+        link: "/suppliers",
+        icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$phosphor$2d$icons$2f$react$2f$dist$2f$csr$2f$UserCircle$2e$es$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["UserCircleIcon"]
     }
 ];
 function Sidebar() {
     _s();
-    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(10);
-    if ($[0] !== "599d5194f72a807644393ab48660cf7c7adb697a5866e59b3173eaa57c1aff89") {
-        for(let $i = 0; $i < 10; $i += 1){
+    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(15);
+    if ($[0] !== "d70193bebd85bd0d7a2001e15ee756af006ea972565f786d024cb65090f98126") {
+        for(let $i = 0; $i < 15; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "599d5194f72a807644393ab48660cf7c7adb697a5866e59b3173eaa57c1aff89";
+        $[0] = "d70193bebd85bd0d7a2001e15ee756af006ea972565f786d024cb65090f98126";
     }
     const pathname = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["usePathname"])();
+    const isActive = pathname === "/settings";
     let t0;
     if ($[1] === Symbol.for("react.memo_cache_sentinel")) {
         t0 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -508,7 +509,7 @@ function Sidebar() {
                     priority: true
                 }, void 0, false, {
                     fileName: "[project]/web/src/layout/dashboardLayout.tsx",
-                    lineNumber: 39,
+                    lineNumber: 40,
                     columnNumber: 105
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -516,13 +517,13 @@ function Sidebar() {
                     children: "KANBAN"
                 }, void 0, false, {
                     fileName: "[project]/web/src/layout/dashboardLayout.tsx",
-                    lineNumber: 39,
+                    lineNumber: 40,
                     columnNumber: 207
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/web/src/layout/dashboardLayout.tsx",
-            lineNumber: 39,
+            lineNumber: 40,
             columnNumber: 10
         }, this);
         $[1] = t0;
@@ -533,11 +534,11 @@ function Sidebar() {
     if ($[2] !== pathname) {
         t1 = navMenu.map({
             "Sidebar[navMenu.map()]": (item, idx)=>{
-                const isActive = pathname === item.link;
+                const isActive_0 = pathname === item.link || pathname.startsWith(item.link + "/");
                 return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                     href: item.link,
                     className: `px py-3 transition
-                    ${isActive ? "text-[#1570EF]" : "text-[#5D6679] "}`,
+                    ${isActive_0 ? "text-[#1570EF]" : "text-[#5D6679] "}`,
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "flex items-center gap-4 text-sm hover:text-[#1570EF]",
                         children: [
@@ -549,18 +550,18 @@ function Sidebar() {
                                 children: item.name
                             }, void 0, false, {
                                 fileName: "[project]/web/src/layout/dashboardLayout.tsx",
-                                lineNumber: 52,
+                                lineNumber: 53,
                                 columnNumber: 16
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/web/src/layout/dashboardLayout.tsx",
-                        lineNumber: 50,
-                        columnNumber: 74
+                        lineNumber: 51,
+                        columnNumber: 76
                     }, this)
                 }, idx, false, {
                     fileName: "[project]/web/src/layout/dashboardLayout.tsx",
-                    lineNumber: 49,
+                    lineNumber: 50,
                     columnNumber: 16
                 }, this);
             }
@@ -581,13 +582,13 @@ function Sidebar() {
                     children: t1
                 }, void 0, false, {
                     fileName: "[project]/web/src/layout/dashboardLayout.tsx",
-                    lineNumber: 62,
+                    lineNumber: 63,
                     columnNumber: 66
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/web/src/layout/dashboardLayout.tsx",
-            lineNumber: 62,
+            lineNumber: 63,
             columnNumber: 10
         }, this);
         $[4] = t1;
@@ -595,9 +596,11 @@ function Sidebar() {
     } else {
         t2 = $[5];
     }
-    let t3;
+    const t3 = `px py-3 transition
+                    ${isActive ? "text-[#1570EF]" : "text-[#5D6679] "}`;
+    let t4;
     if ($[6] === Symbol.for("react.memo_cache_sentinel")) {
-        t3 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+        t4 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "flex items-center gap-4 h-14 text-sm hover:text-[#1570EF]",
             children: [
                 " ",
@@ -608,74 +611,99 @@ function Sidebar() {
                     children: "Setting"
                 }, void 0, false, {
                     fileName: "[project]/web/src/layout/dashboardLayout.tsx",
-                    lineNumber: 72,
+                    lineNumber: 75,
                     columnNumber: 10
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/web/src/layout/dashboardLayout.tsx",
-            lineNumber: 70,
+            lineNumber: 73,
             columnNumber: 10
         }, this);
-        $[6] = t3;
+        $[6] = t4;
     } else {
-        t3 = $[6];
+        t4 = $[6];
     }
-    let t4;
-    if ($[7] === Symbol.for("react.memo_cache_sentinel")) {
-        t4 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: " text-[#5D6679] w-[130px] mx-auto  cursor-pointer",
+    let t5;
+    if ($[7] !== t3) {
+        t5 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+            href: "/settings",
+            className: t3,
+            children: t4
+        }, void 0, false, {
+            fileName: "[project]/web/src/layout/dashboardLayout.tsx",
+            lineNumber: 82,
+            columnNumber: 10
+        }, this);
+        $[7] = t3;
+        $[8] = t5;
+    } else {
+        t5 = $[8];
+    }
+    let t6;
+    if ($[9] === Symbol.for("react.memo_cache_sentinel")) {
+        t6 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "flex items-center gap-4 h-14 text-sm hover:text-[#1570EF]",
             children: [
-                t3,
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "flex items-center gap-4 h-14 text-sm hover:text-[#1570EF]",
-                    children: [
-                        " ",
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["createElement"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$phosphor$2d$icons$2f$react$2f$dist$2f$csr$2f$SignOut$2e$es$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["SignOutIcon"] ?? "a", {
-                            size: 20
-                        }),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                            children: "Logout"
-                        }, void 0, false, {
-                            fileName: "[project]/web/src/layout/dashboardLayout.tsx",
-                            lineNumber: 81,
-                            columnNumber: 12
-                        }, this)
-                    ]
-                }, void 0, true, {
+                " ",
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["createElement"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$phosphor$2d$icons$2f$react$2f$dist$2f$csr$2f$SignOut$2e$es$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["SignOutIcon"] ?? "a", {
+                    size: 20
+                }),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                    children: "Logout"
+                }, void 0, false, {
                     fileName: "[project]/web/src/layout/dashboardLayout.tsx",
-                    lineNumber: 79,
-                    columnNumber: 81
+                    lineNumber: 92,
+                    columnNumber: 10
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/web/src/layout/dashboardLayout.tsx",
-            lineNumber: 79,
+            lineNumber: 90,
             columnNumber: 10
         }, this);
-        $[7] = t4;
+        $[9] = t6;
     } else {
-        t4 = $[7];
+        t6 = $[9];
     }
-    let t5;
-    if ($[8] !== t2) {
-        t5 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "w-49.5  h-screen hidden lg:block fixed left-0 top-0 border-r  bg-white",
+    let t7;
+    if ($[10] !== t5) {
+        t7 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: " text-[#5D6679] w-[130px] mx-auto  cursor-pointer",
             children: [
-                t2,
-                t4
+                t5,
+                t6
             ]
         }, void 0, true, {
             fileName: "[project]/web/src/layout/dashboardLayout.tsx",
-            lineNumber: 88,
+            lineNumber: 99,
             columnNumber: 10
         }, this);
-        $[8] = t2;
-        $[9] = t5;
+        $[10] = t5;
+        $[11] = t7;
     } else {
-        t5 = $[9];
+        t7 = $[11];
     }
-    return t5;
+    let t8;
+    if ($[12] !== t2 || $[13] !== t7) {
+        t8 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "w-49.5  h-screen hidden lg:block fixed left-0 top-0 border-r  bg-white",
+            children: [
+                t2,
+                t7
+            ]
+        }, void 0, true, {
+            fileName: "[project]/web/src/layout/dashboardLayout.tsx",
+            lineNumber: 107,
+            columnNumber: 10
+        }, this);
+        $[12] = t2;
+        $[13] = t7;
+        $[14] = t8;
+    } else {
+        t8 = $[14];
+    }
+    return t8;
 }
 _s(Sidebar, "xbyQPtUVMO7MNj7WjJlpdWqRcTo=", false, function() {
     return [

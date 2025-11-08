@@ -1,4 +1,11 @@
 {
+  "/_not-found/page": "app/_not-found/page.js",
+  "/dashboard/page": "app/dashboard/page.js",
   "/inventory/[id]/page": "app/inventory/[id]/page.js",
-  "/inventory/page": "app/inventory/page.js"
+  "/inventory/page": "app/inventory/page.js",
+  "/login/page": "app/login/page.js",
+  "/settings/page": "app/settings/page.js",
+  "/signup/page": "app/signup/page.js",
+  "/suppliers/[id]/page": "app/suppliers/[id]/page.js",
+  "/suppliers/page": "app/suppliers/page.js"
 }

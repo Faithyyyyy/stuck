@@ -377,9 +377,6 @@ export function DataTable({
                         <TableRow
                           key={row.id}
                           className={`border-0 border-b text-sm font-medium text-[#48505E] transition-colors cursor-pointer `}
-                          // onClick={() =>
-                          //   row.toggleSelected(!row.getIsSelected())
-                          // }
                           onClick={() => {
                             const productId = row.original.orderId;
                             router.push(`/inventory/${productId}`);
