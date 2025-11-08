@@ -28,49 +28,46 @@ The app is built with a **serverless architecture** on AWS, ensuring scalability
 
 ## Architecture
 
-```mermaid
 flowchart LR
-  subgraph Web
-    A[Next.js App]
-  end
+subgraph Web
+A[Next.js App]
+end
 
-  subgraph AWS
-    B[API Gateway]
-    C[AWS Lambda SST]
-    D[DynamoDB]
-    E[S3 Bucket]
-    F[Amazon Cognito]
-    G[Amazon SES]
-    H[EventBridge]
-  end
+subgraph AWS
+B[API Gateway]
+C[AWS Lambda SST]
+D[DynamoDB]
+E[S3 Bucket]
+F[Amazon Cognito]
+G[Amazon SES]
+H[EventBridge]
+end
 
-  A --> B
-  B --> C
-  C --> D
-  C --> E
-  C --> G
-  F --> A
-  H --> C
+A --> B
+B --> C
+C --> D
+C --> E
+C --> G
+F --> A
+H --> C
 
-
-  classDef aws fill:#F4F8FB,stroke:#232F3E,stroke-width:1px,color:#000;
-  classDef web fill:#E6F0FF,stroke:#1570EF,stroke-width:1px,color:#000;
-  class AWS,Web;
+classDef aws fill:#F4F8FB,stroke:#232F3E,stroke-width:1px,color:#000;
+classDef web fill:#E6F0FF,stroke:#1570EF,stroke-width:1px,color:#000;
+class AWS,Web;
 
 stuck/
-├── web/                 # Next.js frontend (Vercel)
-│   ├── components/      # Reusable UI components
-│   ├── pages/           # Routes (Next.js pages)
-│   ├── lib/             # Client utilities (API calls, helpers)
-│   └── styles/          # Tailwind setup
-├── api/                 # Serverless backend (SST)
-│   ├── functions/       # Lambda functions (product CRUD, suppliers, etc.)
-│   ├── lib/             # Shared code (DynamoDB client, auth utils)
-│   ├── stacks/          # SST stack definitions
-│   └── package.json
-└── infra/               # Infrastructure config (CDK/SST)
-    └── sst.config.ts
-
+├── web/ # Next.js frontend (Vercel)
+│ ├── components/ # Reusable UI components
+│ ├── pages/ # Routes (Next.js pages)
+│ ├── lib/ # Client utilities (API calls, helpers)
+│ └── styles/ # Tailwind setup
+├── api/ # Serverless backend (SST)
+│ ├── functions/ # Lambda functions (product CRUD, suppliers, etc.)
+│ ├── lib/ # Shared code (DynamoDB client, auth utils)
+│ ├── stacks/ # SST stack definitions
+│ └── package.json
+└── infra/ # Infrastructure config (CDK/SST)
+└── sst.config.ts
 
 | Entity         | PK                    | SK                    | Example | Notes                             |
 | -------------- | --------------------- | --------------------- | ------- | --------------------------------- |
@@ -80,7 +77,6 @@ stuck/
 | Supplier       | SUPPLIER#<supplierId> | SUPPLIER#<supplierId> | -       | Supplier data: name, contact      |
 | Movement       | MOVE#<productId>      | MOVE#<timestamp>      | -       | Stock changes: delta, reason      |
 | Purchase Order | PO#<poId>             | PO#<poId>             | -       | Purchase info: line items, totals |
-
 
 Key Features
 
@@ -96,7 +92,6 @@ Secure auth with Amazon Cognito
 
 Responsive and modern UI with Tailwind CSS
 
-
 Future Enhancements
 
 Analytics dashboard for sales insights
@@ -108,8 +103,10 @@ Supplier performance scoring
 Integrate Stripe for supplier payments
 
 Offline-first support (IndexedDB caching)
+
 ```
 
 License
 
 This project is licensed under the MIT License — feel free to fork and build upon it.
+```
